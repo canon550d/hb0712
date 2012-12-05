@@ -5,4 +5,7 @@
 *.war
 *.ear
 
-*/.setting/*
+# Eclipse Files #
+*.settings
+*.project
+*.classpath
