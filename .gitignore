@@ -5,7 +5,14 @@
 *.war
 *.ear
 
-# Eclipse Files #
-*.settings
-*.project
-*.classpath
+# Eclipse Project Files #
+.settings
+.project
+.classpath
+
+# Static Web Files
+*.css
+*.js
+*.jpg
+*.png
+*files
