@@ -7,7 +7,7 @@
 
 # Eclipse Project Files #
 .settings
-.project
+#.project
 .classpath
 
 # Static Web Files
