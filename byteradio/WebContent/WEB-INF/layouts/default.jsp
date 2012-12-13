@@ -31,6 +31,19 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <s:property value="'scripts_for_layout'" />
   </head>
   <body>
+    <div id="global_nav">
+      <div class="gn_header">
+        <div class="gn_logo">&nbsp;</div>
+        <div class="gn_nav">
+          <div class="gn_title"><a class="gn_tab" href=""><i>首页</i></a></div>
+          <div class="gn_title"><a class="gn_tab" href=""><i>测试</i></a></div>
+          <div class="gn_title"><a class="gn_tab" href=""><i>其他</i></a></div>
+        </div>
+        <div class="search">
+          <input class="gn_input" type="text" maxlength="18" title="" name="" />
+        </div>
+      </div>
+    </div>
     <div id="container">
       <div id="header" class="header">
          <!-- /顶部/ -->

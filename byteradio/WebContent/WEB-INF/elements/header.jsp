@@ -1,9 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=GB2312" pageEncoding="GB2312"%>
 <div class="content2">
-  <ol>
-    <li>細細</li>
-    <li>細細</li>
-  </ol>
+  <span style="display:none;">xy</span>
 </div>
 <!-- 
     <div>
