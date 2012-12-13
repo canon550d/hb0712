@@ -1,4 +1,4 @@
-package ort.hb0712.worflow.action;
+package org.hb0712.workflow.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 
