@@ -3,7 +3,7 @@
 <!--  
 <div><img src="<s:url value='/img/logo.png' />"/></div>
 -->
-<div style="hight:10px;">&nbsp;</div>
+
 <div class="content">
     <p>新建工单</p>
     <ul>
