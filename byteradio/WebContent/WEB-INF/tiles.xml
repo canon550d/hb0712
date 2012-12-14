@@ -4,10 +4,11 @@
     <definition name="layout1.0" template="/WEB-INF/layouts/default.jsp">
         <!-- put-attribute  name="title"  value="测试" / -->
         <!-- put-attribute name="script"   value="/WEB-INF/elements/script.jsp" / -->
-        <put-attribute name="header"   value="/WEB-INF/elements/header.jsp" />
-        <put-attribute name="sidebar1" value="/WEB-INF/elements/sidebar1.jsp" />
+        <put-attribute name="global_nav"   value="/WEB-INF/elements/topmenu.jsp" />
+        <put-attribute name="header"       value="/WEB-INF/elements/header.jsp" />
+        <put-attribute name="sidebar1"     value="/WEB-INF/elements/sidebar1.jsp" />
         <!-- put-attribute name="content"  value="/WEB-INF/template/elements/content.jsp" / -->
-        <put-attribute name="sidebar2" value="/WEB-INF/elements/sidebar2.jsp" />
+        <put-attribute name="sidebar2"     value="/WEB-INF/elements/sidebar2.jsp" />
     </definition>
     
     <definition name="stat" extends="layout1.0">

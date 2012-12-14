@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=GB2312" pageEncoding="GB2312"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
-
+<!--  
 <div><img src="<s:url value='/img/logo.png' />"/></div>
-
+-->
+<div style="hight:10px;">&nbsp;</div>
 <div class="content">
     <p>新建工单</p>
     <ul>
