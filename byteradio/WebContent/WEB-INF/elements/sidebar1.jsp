@@ -5,33 +5,47 @@
 -->
 
 <div class="content">
-    <p>新建工单</p>
-    <ul>
-        <li><a href="addWorkBill.aspx" class="first">新建工单</a></li>
-    </ul>
+    <p>查询</p>
+    <div class="content_box">
+        <ul>
+            <li><a href="#" class="first">待处理</a></li>
+            <li><a href="#" class="first">大客户</a></li>
+        </ul>
+    </div>
 </div>
 
 
 
 <div class="content">
-    <p>待处理</p>
-    <ul>
-        <li><a href="listTodo.do?v=view1&showType=mima" class="first">非游戏帐号修复</a></li>
-        <li><a href="listTodo.do?v=view1&showType=huawu">话务</a></li>
-        <li><a href="listTodo.do?v=view1&showType=vipmail">VIP邮箱</a></li>
-    </ul>
+    <p>我的工单</p>
+    <div class="content_box">
+        <ul>
+            <li><h3><a href="javascript:void(0);">普通工单</a></h3></li>
+            <li><a href="#" class="first">新建工单</a></li>
+            <li><a href="#">查看工单</a></li>
+            <li><a href="#">跟进工单</a></li>
+        </ul>
+        <ul>
+            <li><h3><a href="javascript:void(0);">VIP工单</a></h3></li>
+            <li><a href="#" class="first">VIP状态查询</a></li>
+            <li><a href="#">VIP到期查询</a></li>
+            <li><a href="#">VIP优先</a></li>
+        </ul>
+    </div>
 </div>
 
 
 <div class="content">
-    <p>高级</p>
-    <ul>
-        <li><a href="listTodo.do?v=myFollowView" class="first">我的工单</a></li>
-        <li><a href="query.do">检索</a></li>
-        <li><a href="stat.do">数据统计</a></li>
-        <li><a href="adminMain.do">高级管理</a></li>
-        <li><a href="feedBack.aspx">反馈管理</a></li>
-        <li><a href="reply_platform_index.aspx">快速恢复</a></li>
-        <li><a href="extra/hc/index.jsp">VIP企业客户管理</a></li>
-    </ul>
+    <p>Group 3</p>
+    <div class="content_box">
+        <ul>
+            <li><a href="#" class="first">高级</a></li>
+            <li><a href="#">高级</a></li>
+            <li><a href="#">高级</a></li>
+            <li><a href="#">高级</a></li>
+            <li><a href="#">高级</a></li>
+            <li><a href="#">高级</a></li>
+            <li><a href="#">高级</a></li>
+        </ul>
+    </div>
 </div>

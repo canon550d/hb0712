@@ -16,7 +16,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>彩虹--<tiles:getAsString name="title" /></title>
+    <title>怡乐--<tiles:getAsString name="title" /></title>
 
     <link rel="stylesheet" type="text/css" href="files/yui/3.5.1/build/cssreset/cssreset-min.css"/>
     <link rel="stylesheet" type="text/css" href="files/yui/3.5.1/build/cssfonts/cssfonts-min.css"/>
@@ -60,7 +60,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
       <div id="footer">
           <!-- /页脚/ -->
-          <p>彩虹公司版权所有 &copy;1990-2012</p>
+          <a href="http://www.baidu.com">百度</a> | <a href="http://www.google.com.hk">谷歌</a> | <a href="http://www.sina.com.cn">新浪</a> | <a href="http://www.163.com">网易</a> | <a href="http://www.sohu.com" target="_blank">搜狐</a>
+          <p>怡乐公司版权所有 &copy;1990-2012</p>
       </div><!-- end .footer -->
     </div>
 

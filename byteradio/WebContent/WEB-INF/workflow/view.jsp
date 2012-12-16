@@ -19,7 +19,7 @@
 <div class="content">
     <p class="contentTitle">#03 日志</p>
     <div class="feed_lists">
-      <% for(int i=0; i<3; i++){%>
+      <% for(int i=0; i<2; i++){%>
       <dl class="feed_list">
         <dt class="face">
           <a href="javascript:;"><img height="50" width="50" src="<s:url value='/img/face.jpg' />" /></a>
@@ -27,7 +27,7 @@
         <dd class="content">
           <a class="W_blkarrow W_bglinka hover" title="展开屏蔽选项" href="javascript:;"><cite class="arr_m"></cite></a>
           <p>
-            <a href="javascript:;"> 谢阳</a>：
+            <a href="javascript:;"> 刘永</a>：
             <em>尼康D600传感器证实由索尼制造！Chipworks网站通过对尼康D600传感器进行拆解后证实，D600上搭载的传感器确由索尼制造，传感器型号IMX128L。 在尼康今年发布的单反相机中，D600、D800/D800E采用索尼传感器，其余均由尼康自行设计。</em>
           </p>
           <p class="info W_linkb W_textb">
@@ -70,8 +70,8 @@
                   <a href="/bnubaby"><img width="30" height="30"  src="<s:url value='/img/face.jpg' />" alt="辽A丫头"></a>
                 </dt>
                 <dd>
-                  <a href="/bnubaby">程彪</a>：回复
-                  <a href="/n/%E8%8E%AB%E5%AD%90%E7%9D%BF">@郭攀</a>:你多大肚子... (今天 16:01) 
+                  <a href="/bnubaby">杜莉莉</a>：回复
+                  <a href="/n/%E8%8E%AB%E5%AD%90%E7%9D%BF">@张慧</a>:你多大肚子... (今天 16:01) 
                 </dd>
                 <dd class="clear"></dd>
               </dl>

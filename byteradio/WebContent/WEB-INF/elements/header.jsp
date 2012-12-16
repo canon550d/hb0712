@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<div class="content2">
+<!-- 
+<div class="content">
   <span style="display:none;">xy</span>
 </div>
-
+ 
     <div>
       <form id="search_form" name="search_form" onsubmit="return false;">
         <input type="hidden" name="agentname" id="agentname" value="2612" /> 
@@ -21,5 +22,5 @@
       <span id="entryCount"></span>
     </div>
     <div>&nbsp;</div>
-
+-->
     <!--a href="#"><img src="" alt="在此处插入徽标" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background: #C6D580; display:block;" /></a -->
