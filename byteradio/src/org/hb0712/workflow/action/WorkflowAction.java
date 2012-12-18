@@ -10,4 +10,9 @@ public class WorkflowAction extends ActionSupport{
 		return SUCCESS;
 	}
 
+	public String search(){
+		return SUCCESS;
+	}
+	
+
 }
