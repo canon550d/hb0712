@@ -9,6 +9,7 @@
 .settings
 #.project
 .classpath
+build
 
 # Static Web Files
 *.css
