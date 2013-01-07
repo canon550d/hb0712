@@ -2,7 +2,7 @@
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <s:set name="stylesheet" value="{'http://113.108.224.250/xy/test/css/test.css'}" />
 <s:set name="javascript" value="{'http://113.108.224.250/xy/test/js/template.min.js','http://113.108.224.250/xy/test/js/test.js'}" />
-113.108.224.250
+
 <div class="content">
     <p class="contentTitle">#01</p>
     <table>
