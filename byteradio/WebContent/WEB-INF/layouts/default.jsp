@@ -18,15 +18,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>怡乐--<tiles:getAsString name="title" /></title>
 
-    <link rel="stylesheet" type="text/css" href="files/yui/3.5.1/build/cssreset/cssreset-min.css"/>
-    <link rel="stylesheet" type="text/css" href="files/yui/3.5.1/build/cssfonts/cssfonts-min.css"/>
-    <link rel="stylesheet" type="text/css" href="files/yui/3.5.1/build/cssgrids/grids-min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/cssbase.css"/>
+    <link rel="stylesheet" type="text/css" href="http://113.108.224.250/xy/yui/3.5.1/build/cssreset/cssreset-min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://113.108.224.250/xy/yui/3.5.1/build/cssfonts/cssfonts-min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://113.108.224.250/xy/yui/3.5.1/build/cssgrids/grids-min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://113.108.224.250/xy/test/css/cssbase.css"/>
 
-    <script type="text/javascript" src="files/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://113.108.224.250/xy/jquery/1.8.3/jquery.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="files/jqueryui/1.9.2/themes/base/jquery-ui.css"/>
-    <script type="text/javascript" src="files/jqueryui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://113.108.224.250/xy/jqueryui/1.9.2/themes/base/jquery-ui.css"/>
+    <script type="text/javascript" src="http://113.108.224.250/xy/jqueryui/1.9.2/jquery-ui.js"></script>
 
     <s:property value="'scripts_for_layout'" />
   </head>
