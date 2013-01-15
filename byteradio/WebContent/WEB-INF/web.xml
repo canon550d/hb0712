@@ -10,6 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 
+  <!--
   <filter>
        <filter-name>HeadFilter</filter-name>
        <filter-class>org.hb0712.filter.HeadFilter</filter-class>
@@ -18,7 +19,14 @@
       <filter-name>HeadFilter</filter-name>
       <url-pattern>*.py</url-pattern>
   </filter-mapping>
+  -->
+  
+  <!-- 配置spring监听器 -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
 
+  <!-- 定义struts2的核心filter -->  
   <filter>
       <filter-name>struts2</filter-name>
       <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>

@@ -7,6 +7,7 @@
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="true" />
     <constant name="struts.action.extension" value="py" />
+    <constant name="struts.objectFactory" value="spring" />
     <constant name="struts.i18n.encoding" value="UTF-8" />
     <constant name="struts.locale" value="zh_CN" />
     <constant name="struts.multipart.maxSize" value="5000000"/>
@@ -18,7 +19,7 @@
         <action name="imageUpload" class="org.hb0712.workflow.action.WorkflowAction" method="view">
             <result name="success">/WEB-INF/Text.jsp</result>
         </action>
-        <action name="view" class="org.hb0712.workflow.action.WorkflowAction" method="view">
+        <action name="view" class="workflowAction" method="view">
             <result name="success" type="tiles">stat</result>
         </action>
     </package>
