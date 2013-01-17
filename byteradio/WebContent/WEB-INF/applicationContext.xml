@@ -17,5 +17,5 @@
 	<bean id="workflowAction" class="org.hb0712.workflow.action.WorkflowAction">
 	</bean>
 
-
+	<bean id="workAction" class="org.hb0712.noble.working.action.WorkAction"></bean>
 </beans>

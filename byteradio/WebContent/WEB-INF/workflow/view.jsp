@@ -14,11 +14,11 @@
     </table>
 </div>
 
-
-
 <div class="content">
     <p class="contentTitle">#03 日志</p>
     <div class="feed_lists">
+      <s:iterator value="workStands.works">1
+      </s:iterator>
       <% for(int i=0; i<2; i++){%>
       <dl class="feed_list">
         <dt class="face">

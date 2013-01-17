@@ -22,6 +22,9 @@
         <action name="view" class="workflowAction" method="view">
             <result name="success" type="tiles">stat</result>
         </action>
+        <action name="view2" class="workAction" method="view">
+            <result name="success" type="tiles">stat</result>
+        </action>
     </package>
 
     <package name="ajax" extends="json-default" namespace="/ajax">
