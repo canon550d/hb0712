@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
-<s:set name="stylesheet" value="{'http://113.108.224.250/xy/test/css/test.css'}" />
-<s:set name="javascript" value="{'http://113.108.224.250/xy/test/js/template.min.js','http://113.108.224.250/xy/test/js/test.js'}" />
+<s:set name="stylesheet" value="{'http://218.107.55.92/xy/test/css/test.css'}" />
+<s:set name="javascript" value="{'http://218.107.55.92/xy/test/js/template.min.js','http://218.107.55.92/xy/test/js/test.js'}" />
 
 <div class="content">
     <p class="contentTitle">#01</p>
@@ -17,8 +17,32 @@
 <div class="content">
     <p class="contentTitle">#03 日志</p>
     <div class="feed_lists">
-      <s:iterator value="workStands.works">1
+      <s:iterator value="workStands.works">
+      <dl class="feed_list">
+        <dt class="face">
+          <a href="javascript:;"><img height="50" width="50" src="<s:url value='/img/face.jpg' />" /></a>
+        </dt>
+        <dd class="content">
+          <a class="W_blkarrow W_bglinka hover" title="展开屏蔽选项" href="javascript:;"><cite class="arr_m"></cite></a>
+          <p>
+            <a href="javascript:;"> <s:property value="human.name"/></a>：
+            <em><s:property value="text"/></em>
+          </p>
+          <p class="info W_linkb W_textb">
+            <span>
+              <a href="javascript:void(0);">骚扰</a>
+              <i class="W_vline">|</i>
+              <a href="javascript:void(0);">解答</a>
+              <i class="W_vline">|</i>
+              <a href="javascript:void(0);">回复(2)</a>
+            </span>
+            <a class="date" href="javascript:;"><s:property value="workTime"/></a> 待跟进
+            <em class="hover"></em>
+          </p>
+        </dd>
+      </dl>
       </s:iterator>
+
       <% for(int i=0; i<2; i++){%>
       <dl class="feed_list">
         <dt class="face">

@@ -7,6 +7,7 @@ public class Work {
 	private int id;
 	private Human human;
 	private Date workTime;
+	private String text;
 
 	public int getId() {
 		return id;
@@ -31,6 +32,16 @@ public class Work {
 	public void setWorkTime(Date workTime) {
 		this.workTime = workTime;
 	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+
 
 	
 }
