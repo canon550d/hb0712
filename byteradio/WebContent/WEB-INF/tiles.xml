@@ -20,6 +20,11 @@
         <put-attribute name="title" value="数据统计" />
         <put-attribute name="content" value="/WEB-INF/customer/view.jsp" />
     </definition>
+    
+    <definition name="work.view" extends="layout1.0">
+        <put-attribute name="title" value="数据统计" />
+        <put-attribute name="content" value="/WEB-INF/workflow/view2.jsp" />
+    </definition>
 
     <definition name="test" extends="layout1.0">
         <put-attribute name="title" value="数据统计" />

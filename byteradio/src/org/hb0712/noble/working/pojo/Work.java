@@ -1,13 +1,17 @@
 package org.hb0712.noble.working.pojo;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 
 public class Work {
 	private int id;
-	private Human human;
+	private Human human;	//¿ÉÄÜÎª¿Õ
 	private Date workTime;
 	private String text;
+	private List<Conversation> conversations = new ArrayList<Conversation>();
+	
 
 	public int getId() {
 		return id;
@@ -41,7 +45,15 @@ public class Work {
 		this.text = text;
 	}
 
+	public List<Conversation> getConversations() {
+		return conversations;
+	}
+
+	public void setConversations(List<Conversation> conversations) {
+		this.conversations = conversations;
+	}
 
 
-	
+
+
 }

@@ -23,7 +23,7 @@
             <result name="success" type="tiles">stat</result>
         </action>
         <action name="view2" class="workAction" method="view">
-            <result name="success" type="tiles">stat</result>
+            <result name="success">/WEB-INF/workflow/view2.jsp</result>
         </action>
     </package>
 

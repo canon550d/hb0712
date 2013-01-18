@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class WorkStands {
 	private int id;
+	private User user;
 	
 	private List<Work> works = new ArrayList<Work>();
 
@@ -24,7 +25,12 @@ public class WorkStands {
 	public void setWorks(List<Work> works) {
 		this.works = works;
 	}
+	public User getUser() {
+		return user;
+	}
+	public void setUser(User user) {
+		this.user = user;
+	}
 
-	
 	
 }

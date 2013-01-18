@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class Human {
 	private Integer id;
-	private String name;
+	private String name;	//ËÎ×æÓ¢
 
 	private List<Contact> contacts;
 	

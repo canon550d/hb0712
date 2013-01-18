@@ -7,7 +7,8 @@ package org.hb0712.noble.working.pojo;
  */
 public class User {
 	private Integer id;
-	private String name;
+	private String name;	//ÌÆÉ®
+	private Human human;	//³ÙÖØÈğ
 
 	public Integer getId() {
 		return id;
@@ -20,6 +21,12 @@ public class User {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public Human getHuman() {
+		return human;
+	}
+	public void setHuman(Human human) {
+		this.human = human;
 	}
 	
 	
