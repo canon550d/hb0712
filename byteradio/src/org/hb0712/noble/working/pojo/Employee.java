@@ -1,7 +1,7 @@
 package org.hb0712.noble.working.pojo;
 
 /*
- * Ô±¹¤
+ * 
  */
 public class Employee {
 	private int id;
