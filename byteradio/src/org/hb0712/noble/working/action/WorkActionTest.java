@@ -2,6 +2,7 @@ package org.hb0712.noble.working.action;
 
 import java.util.Date;
 
+import org.hb0712.noble.working.pojo.Contact;
 import org.hb0712.noble.working.pojo.Conversation;
 import org.hb0712.noble.working.pojo.Employee;
 import org.hb0712.noble.working.pojo.Human;
@@ -15,6 +16,7 @@ public class WorkActionTest {
 	@Test
 	public void test() {
 		
+		Contact c = new Contact();
 	}
 	
 	public WorkStands init(){

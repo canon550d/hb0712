@@ -10,7 +10,7 @@ public class Human {
 	private Integer id;
 	private String name;	//ËÎ×æÓ¢
 
-	private List<Contact> contacts;
+//	private List<Contact> contacts;
 	
 	public Integer getId() {
 		return id;
@@ -24,12 +24,7 @@ public class Human {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public List<Contact> getContacts() {
-		return contacts;
-	}
-	public void setContacts(List<Contact> contacts) {
-		this.contacts = contacts;
-	}
+
 	public List<Email> getEmails() {
 //		return emails;
 		return null;

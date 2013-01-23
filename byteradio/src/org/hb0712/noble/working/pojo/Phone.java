@@ -1,5 +1,6 @@
 package org.hb0712.noble.working.pojo;
 
-public class Phone {
+public class Phone extends Detail{
+	
 
 }
