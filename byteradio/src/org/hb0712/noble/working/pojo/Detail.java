@@ -5,7 +5,7 @@ package org.hb0712.noble.working.pojo;
 public class Detail {
 	private int id;
 	private String label;
-	private String detailType;
+//	private String detailType;
 	private String value;
 
 	public enum detailType{
