@@ -1,10 +1,10 @@
 package org.hb0712.noble.working.pojo;
 
 public class PostalAddress extends Detail{
-	private String street;
-	private String city;
-	private String state;
-	private String zipCode;
+	private String street;//街道
+	private String city;//城市
+	private String state;//省/直辖市/自治区
+	private String zipCode;//邮政编码
 
 	public String getStreet() {
 		return street;

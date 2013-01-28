@@ -46,4 +46,10 @@
             <result name="success" type="tiles">test</result>
         </action>
     </package>
+
+    <package name="contacts" extends="tiles-default" namespace="/contacts">
+        <action name="view" class="workAction" method="view">
+            <result name="success" type="tiles">contact.view</result>
+        </action>
+    </package>
 </struts>
