@@ -10,11 +10,13 @@ public class URLResourceTest {
 
 	@Test
 	public void test() throws IOException {
-		Resource resource = new UrlResource("http://www.baidu.com");
+		Resource resource = new UrlResource("http://www.newegg.com.cn/Product/92-C04-022.htm");
+		
 		System.out.println(resource.isOpen());
 		System.out.println(resource.getURL());
 		System.out.println(resource.getURI());
 		System.out.println(resource.isReadable());
+		System.out.println(resource.contentLength());
 	}
 
 }
