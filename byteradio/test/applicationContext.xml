@@ -17,12 +17,10 @@
 	<bean id="workflowAction" class="org.hb0712.workflow.action.WorkflowAction">
 	</bean>
 
-	<bean id="workAction" class="org.hb0712.noble.working.action.WorkAction">
-		<property name="contactService" ref="contactService"></property>
-	</bean>
+	<bean id="workAction" class="org.hb0712.noble.working.action.WorkAction"></bean>
 	
 	<!-- 启动对@AspectJ注解的支持 -->
-	<aop:aspectj-autoproxy proxy-target-class="true"/>
+	<aop:aspectj-autoproxy/>
 	
 	<bean id="myAspect" class="org.hb0712.learn.aop.NotVeryUsefulAspect"></bean>
 	<bean id="contactService" class="org.hb0712.noble.working.impl.service.AbstractContactService"></bean>
