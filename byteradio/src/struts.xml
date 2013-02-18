@@ -13,6 +13,16 @@
     <constant name="struts.multipart.maxSize" value="5000000"/>
 
     <package name="workflow" extends="tiles-default" namespace="/workflow">
+        <interceptors><!-- /注册拦截器/ -->
+            <interceptor name="basic" class="org.hb0712.learn.struts2.BasicInterceptor"></interceptor>
+            <interceptor-stack name="projectStack"><!-- /拦截器堆栈/ -->
+                <interceptor-ref name="basic"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        
+        <default-interceptor-ref name="projectStack"></default-interceptor-ref>
+        
         <action name="imageindex">
             <result>/WEB-INF/Text.jsp</result>
         </action>
