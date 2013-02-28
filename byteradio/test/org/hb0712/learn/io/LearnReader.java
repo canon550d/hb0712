@@ -1,10 +1,11 @@
 package org.hb0712.learn.io;
 
 import java.io.BufferedReader;
+import java.io.CharArrayReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.Reader;
 
 public class LearnReader {
 
@@ -14,7 +15,7 @@ public class LearnReader {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			lessonBufferedReader();
+			lessonCharArrayReader();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -38,6 +39,17 @@ public class LearnReader {
 		String s ;
 		while(null != (s = br.readLine())){
 			System.out.println(s);
+		}
+	}
+	
+	public static void lessonCharArrayReader() throws IOException{
+		String me = "Œ“»’";
+		char[] buffer = me.toCharArray();
+		Reader car = new CharArrayReader(buffer);
+		
+		int s;
+		while(-1 != (s = car.read())){
+			System.out.println((char)s);
 		}
 	}
 }
