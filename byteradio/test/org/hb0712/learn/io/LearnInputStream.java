@@ -12,6 +12,7 @@ import org.junit.Test;
 /*
  * 
  */
+@SuppressWarnings("deprecation")
 public class LearnInputStream {
 
 	
@@ -25,7 +26,7 @@ public class LearnInputStream {
 		
 		int length;
 		while(-1 != (length=fis.read())){//从输入流中读取数据的下一个字节，返回0到255范围内的int字节值
-			//System.out.print((char)length);//强制转换
+			System.out.print((char)length);//强制转换
 		}
 		fis.close();
 	}
@@ -36,7 +37,7 @@ public class LearnInputStream {
 		byte[] buffer = new byte[20];//这个值的改变会影响运行时间
 		int length;
 		while(-1 != (length=fis.read(buffer))){
-			//System.out.println(new String(buffer, 0, length));//每次的read后不会清空buffer，只是覆盖之前的数据，这点需要注意
+			System.out.println(new String(buffer, 0, length));//每次的read后不会清空buffer，只是覆盖之前的数据，这点需要注意
 		}
 
 		fis.close();
@@ -58,7 +59,7 @@ public class LearnInputStream {
 	
 	public static void lessonStringBufferInputStream(){
 		String s = "cao";
-		StringBufferInputStream sbis = new StringBufferInputStream(s);// 都不推荐使用了，不用继续写下去了
+		new StringBufferInputStream(s);// 都不推荐使用了，不用继续写下去了
 	}
 
 	@Test
@@ -67,7 +68,7 @@ public class LearnInputStream {
 		BufferedInputStream bis = new BufferedInputStream(fis);//这里可以设置缓存大小
 		int s;
 		while(-1 != (s=bis.read())){
-			//System.out.print((char)s);
+			System.out.print((char)s);
 		}
 	}
 }
