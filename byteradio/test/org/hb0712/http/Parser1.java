@@ -8,7 +8,6 @@ import java.util.Map;
 
 public class Parser1 implements Parser {
 
-	@Override
 	public Map<String, String> execute(InputStream is) {
 		// TODO Auto-generated method stub
 		BufferedReader br;
