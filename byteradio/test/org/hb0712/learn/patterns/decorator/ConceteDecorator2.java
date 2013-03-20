@@ -9,8 +9,13 @@ public class ConceteDecorator2 extends Decorator {
 	@Override
 	public int operation() {
 		// TODO Auto-generated method stub
+		this.before();
 		int o = super.operation();
 		return o + this.toJson();
+	}
+	
+	private void before(){
+		System.out.println("×°ÊÎÆ÷B");
 	}
 	
 	private int toJson(){

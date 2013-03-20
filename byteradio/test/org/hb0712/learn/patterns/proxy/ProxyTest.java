@@ -8,8 +8,9 @@ public class ProxyTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Subject rs = new RealSubject();
-		Subject ps = new ProxySubject(rs);
-		Subject ps2 = new ProxySubject2(ps);
+		Subject ps = new ProxySubject2(rs);
+		Subject ps2 = new ProxySubject(ps);
+		//可以继续代理下去...
 		ps2.reuqest();
 	}
 

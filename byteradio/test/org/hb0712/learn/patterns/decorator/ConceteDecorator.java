@@ -9,11 +9,16 @@ public class ConceteDecorator extends Decorator {
 	@Override
 	public int operation() {
 		// TODO Auto-generated method stub
+		this.before();
 		int o = super.operation();
-		return o + this.fuck();
+		return o + this.after();
 	}
 	
-	private int fuck(){
+	private void before(){
+		System.out.println("装饰器A");
+	}
+	
+	private int after(){
 		System.out.println("添加巧克力+2块");
 		return 2;
 	}
