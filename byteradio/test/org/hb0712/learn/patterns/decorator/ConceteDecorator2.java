@@ -7,14 +7,15 @@ public class ConceteDecorator2 extends Decorator {
 	}
 
 	@Override
-	public void operation() {
+	public int operation() {
 		// TODO Auto-generated method stub
-		super.operation();
-		this.toJson();
+		int o = super.operation();
+		return o + this.toJson();
 	}
 	
-	public void toJson(){
-		System.out.println("我把数据转换成了Json：");
+	private int toJson(){
+		System.out.println("添加樱桃+4块");
+		return 4;
 	}
 
 }

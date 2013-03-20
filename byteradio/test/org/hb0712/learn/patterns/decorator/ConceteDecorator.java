@@ -7,14 +7,15 @@ public class ConceteDecorator extends Decorator {
 	}
 
 	@Override
-	public void operation() {
+	public int operation() {
 		// TODO Auto-generated method stub
-		super.operation();
-		this.fuck();
+		int o = super.operation();
+		return o + this.fuck();
 	}
 	
-	public void fuck(){
-		System.out.println("我把数据转换成了String：");
+	private int fuck(){
+		System.out.println("添加巧克力+2块");
+		return 2;
 	}
 
 }

@@ -2,9 +2,10 @@ package org.hb0712.learn.patterns.decorator;
 
 public class ConceteComponent implements Component {
 
-	public void operation() {
+	public int operation() {
 		// TODO Auto-generated method stub
-		System.out.println("从www.baidu.com获取了inputstream");
+		System.out.println("一个冰欺凌甜筒10块");
+		return 10;
 	}
 
 }

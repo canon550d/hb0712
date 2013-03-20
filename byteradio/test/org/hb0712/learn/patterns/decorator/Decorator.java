@@ -11,8 +11,8 @@ public abstract class Decorator implements Component{
 		this.component = component;
 	}
 	
-	public void operation() {
+	public int operation() {
 		// TODO Auto-generated method stub
-		this.component.operation();
+		return this.component.operation();
 	}
 }

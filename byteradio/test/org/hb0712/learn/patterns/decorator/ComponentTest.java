@@ -11,10 +11,11 @@ public class ComponentTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Component hc = new ConceteComponent();			//HttpClient
-		Decorator shc = new ConceteDecorator(hc);		//StringHttpClient
-		Decorator jhc = new ConceteDecorator2(shc);		//JsonHttpClient
-		jhc.operation();
+		Component iceCream = new ConceteComponent();			//HttpClient
+		Decorator ChocolateIceCream = new ConceteDecorator(iceCream);		//StringHttpClient
+		Decorator BlueberryChocolateIceCream = new ConceteDecorator2(ChocolateIceCream);		//JsonHttpClient
+		int o = BlueberryChocolateIceCream.operation();
+		System.out.print("×îÖÕ¹ºÂò" + o +"¿é");
 	}
 
 }

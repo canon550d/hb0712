@@ -6,5 +6,5 @@ package org.hb0712.learn.patterns.decorator;
  * 为了便于理解，只定义了一个方法。
  */
 public interface Component {
-	public void operation();
+	public int operation();
 }
