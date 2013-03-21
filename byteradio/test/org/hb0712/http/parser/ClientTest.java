@@ -2,7 +2,12 @@ package org.hb0712.http.parser;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.List;
+import java.util.Map;
 
+import org.hb0712.http.parser.impl.CheckIsModifySecureInfo;
+import org.hb0712.http.parser.impl.GetIDNumServlet;
+import org.hb0712.http.parser.impl.MailInfo;
 import org.junit.Test;
 
 /*
@@ -17,12 +22,12 @@ public class ClientTest {
 	@Test
 	public void baba(){
 		InputStream is = new ByteArrayInputStream(new byte[10]);
-		Parse dp = new DefaultParse();
-		Parse ci = new CheckIsModifySecureInfo(dp);
-		Parse gs = new GetIDNumServlet(ci);
-		Parse mi = new MailInfo(gs);
-		Tags t = mi.action(is);		//这里不如提供一个ActiveWorkBill接口，或者提供一个
-		System.out.println(t);
+//		Parse dp = new DefaultParse();
+//		Parse ci = new CheckIsModifySecureInfo(dp);
+//		Parse gs = new GetIDNumServlet(ci);
+//		Parse mi = new MailInfo(gs);
+//		List<Map<String, String>> t = mi.action(is);		//这里不如提供一个ActiveWorkBill接口，或者提供一个
+//		System.out.println(t);
 	}
 	
 	
