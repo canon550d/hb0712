@@ -17,16 +17,16 @@ public class DefaultHttpClient implements HttpClient {
 		return resource.getInputStream();
 	}
 	
-	public List<Map<String, String>> read(DivBox db){
-		InputStream is = null;
-		try {
-			is = this.read(db.getName());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		List<Map<String, String>> s = this.parse.action(is);
-		return s;
+	public List<Map<String, String>> read( ){
+//		InputStream is = null;
+//		try {
+//			is = this.read(db.getName());
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		List<Map<String, String>> s = this.parse.action(is);
+		return null;
 	}
 
 }
