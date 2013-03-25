@@ -9,10 +9,11 @@ public class ConcreteCommand2 implements Command {
 		this.receiver = receiver;
 	}
 
-	public void execute() {
+	public int execute() {
 		// TODO Auto-generated method stub
 		System.out.println("ÃüÁîB");
 		this.receiver.action();
+		return 0;
 	}
 
 }

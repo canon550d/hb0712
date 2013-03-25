@@ -8,17 +8,17 @@ public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//调用者
-		Invoker i = new Invoker();
+		Invoker tvController = new Invoker();
 		//接收者
-		Receiver r = new Receiver();
+		Receiver tv = new Receiver();
 		
-		Command c = new ConcreteCommand(r);
-		i.setCommand(c);
-		i.action();
+		Command on = new ConcreteCommand(tv);
+		tvController.setCommand(on);
+		int i = tvController.action();
 		
-		Command c2 = new ConcreteCommand2(r);
-		i.setCommand(c2);
-		i.action();
+		Command off = new ConcreteCommand2(tv);
+		tvController.setCommand(off);
+		tvController.action();
 	}
 
 }
