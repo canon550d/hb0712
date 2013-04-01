@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="GB2312"?>
+<message>
+	<isLock>未锁定</isLock>
+	<LoginLog>
+			<area>河南省安阳市</area>
+			<days>1</days>
+			<logins>1</logins>
+			<firstTime>2013-03-17 10:49:56.0</firstTime>
+			<lastTime>2013-03-17 10:49:56.0</lastTime>
+	</LoginLog>
+	<LoginLog>
+			<area>192.168.194.201</area>
+			<days>1</days>
+			<logins>1</logins>
+			<firstTime>2013-03-25 16:24:23.0</firstTime>
+			<lastTime>2013-03-25 16:24:23.0</lastTime>
+	</LoginLog>
+	<LoginLog>
+			<area>北京市</area>
+			<days>1</days>
+			<logins>1</logins>
+			<firstTime>2013-03-21 18:50:53.0</firstTime>
+			<lastTime>2013-03-21 18:50:53.0</lastTime>
+	</LoginLog>
+	<RegTimeAddr>
+		<regTime>2010-07-26 21:19:57.0</regTime>
+		<regAddress>113.64.250.253|广东省,广州市,电信</regAddress>
+	</RegTimeAddr>
+	<idCard />
+	<CheckIsModifySecureInfo>
+		<ChangePwd>1</ChangePwd>
+		<ChangePwdQuestion>0</ChangePwdQuestion>
+		<ChangeSercurePwd>0</ChangeSercurePwd>
+		<ChangePwdEmail>0</ChangePwdEmail>
+	</CheckIsModifySecureInfo>
+	<UserMobInfo>
+		<list>
+			<ssn>guopan0518</ssn>
+			<moblie>13751758716</moblie>
+			<status>关联已验证</status>
+			<bindTime>2013-02-08 17:08:49.0</bindTime>
+			<bindIp>218.107.55.172 广东省,广州市,联通</bindIp>
+			<unbindTime>2013-02-08 17:08:49.0</unbindTime>
+			<unbindIp>218.107.55.172 广东省,广州市,联通</unbindIp>
+		</list>
+
+	</UserMobInfo>
+	<UserModifyLog>
+		<ssn>guopan0518</ssn>
+		<pwdModify>1</pwdModify>
+		<pwdUpdateTime>2013-03-28 15:21:35.0</pwdUpdateTime>
+		<pwdUpdateIp>218.107.55.253 广东省,广州市,联通</pwdUpdateIp>
+		<pingMaModify>1</pingMaModify>
+		<pingMaUpdateTime>2013-02-08 17:08:49.0</pingMaUpdateTime>
+		<pingMaUpdateIp>218.107.55.172 广东省,广州市,联通</pingMaUpdateIp>
+		<IdModify>0</IdModify>
+		<IdUpdateTime></IdUpdateTime>
+		<IdUpdateIp></IdUpdateIp>
+		<qestionModify>1</qestionModify>
+		<questionUpdateTime>2013-02-08 17:08:49.0</questionUpdateTime>
+		<questionUpdateIp>218.107.55.172 广东省,广州市,联通</questionUpdateIp>
+		<bmEmailModify>1</bmEmailModify>
+		<bmEmailUpdateTime>2013-02-08 17:08:49.0</bmEmailUpdateTime>
+		<bmEmailUpdateIp>218.107.55.172 广东省,广州市,联通</bmEmailUpdateIp>
+		<qqModify>1</qqModify>
+		<qqUpdateTime>2013-02-08 17:08:49.0</qqUpdateTime>
+		<qqUpdateIp>218.107.55.172 广东省,广州市,联通</qqUpdateIp>
+	</UserModifyLog>
+	<UserInfo>
+		<ssn>guopan0518</ssn>
+		<name>郭攀 </name>
+		<regTime>2010-07-26 21:19:57.0</regTime>
+		<qqNumber></qqNumber>
+		<baomiEmail>guopan0518@126.com</baomiEmail>
+		<ursBirthday>2010-02-02</ursBirthday>
+		<lastLoginTime>2013-03-28 13:38:37.0</lastLoginTime>
+		<lastLoginIp>120.85.27.76 广东省,广州市,联通</lastLoginIp>
+		<lastLoginPdt>pop3</lastLoginPdt>
+	</UserInfo>
+	<SecureInfo />
+	<UserLoginException>
+		<loginException>0</loginException>
+		<lastLoginUser>0</lastLoginUser>
+	</UserLoginException>
+</message>
