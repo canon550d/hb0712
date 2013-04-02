@@ -1,7 +1,5 @@
 package org.hb0712.learn.json;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 
 public class Sample {
 
@@ -17,10 +15,10 @@ public class Sample {
 	 * 这是谷歌的Gson，可以用这个东西
 	 */
 	public void test1(){
-		JsonObject jo = new JsonObject();
-		jo.addProperty("name", "gulie");
-
-		System.out.println(new Gson().toJson(jo).toString());
+//		JsonObject jo = new JsonObject();
+//		jo.addProperty("name", "gulie");
+//
+//		System.out.println(new Gson().toJson(jo).toString());
 	}
 
 }
