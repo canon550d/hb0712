@@ -16,7 +16,7 @@ public class URLResourceTest {
 		System.out.println(resource.getURL());
 		System.out.println(resource.getURI());
 		System.out.println(resource.isReadable());
-		System.out.println(resource.contentLength());
+//		System.out.println(resource.contentLength());
 	}
 
 }
